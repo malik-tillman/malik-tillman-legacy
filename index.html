@@ -1,15 +1,42 @@
 ﻿<!DOCTYPE html>
 <html>
 	
-<head> 
-	<meta charset="utf-8">
-		  
-	<title>Malik Tillman</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-</head>
+	<head> 
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+		<title>Malik Tillman</title>
+		<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+		<script src="typed.js"></script>
+	</head>
     
-<body>
-	<p>Loading...</p>
+	<body>
+		<div id="title">
+			<h1 id="name">Malik Tillman </h1>
+			<h3 id="email">contact@maliktillman.com</h3>
+			<img id="logo" src="assets/logo.png" alt="logo"/>
+		</div>
+		
+		<div id="search_and_links">
+			<img id="github" src="assets/github.png" alt="My Github"/>
+			
+			<img id="linkedin" src="assets/linkedin.png" alt="My LinkedIn"/>
+		
+			<div class="search-container">
+				<img id="search-bar" src="assets/search_bar.png" alt=""/>
+				<div id="typed"></div>
+			</div>
+		
+		</div>
+		
+		<script>
+		var typed = new Typed('#typed', {
+			strings: ["Student.", "Learner.", "Developer."],
+			loop: true,
+			typeSpeed: 100,
+			backSpeed: 100,
+			showCursor: true
+		});
+	</script>
+	<img id="large-shadow" src="assets/large_shadow.png" alt=""/>
 </body>
-
 </html>

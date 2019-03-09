@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	height: 100%;
+	background: linear-gradient(#070707, #000e18);
+}
+
+#title {
+	text-align: center;
+	color: white;
+}
+
+#name {
+	font-family: Century Gothic;
+	letter-spacing: 12px;
+	font-size: 75px;
+	font-weight: 100;
+	position: relative;
+}
+
+#email{
+	font-family: Helvetica;
+	font-weight: 10;
+	letter-spacing: 2px;
+	font-size: 17px;
+	margin-top: -60px;
+	margin-bottom: 75px;
+}
+
+#logo {
+	align-content: center;
+	margin-bottom: 75px;
+}
+
+#search_and_links{
+	
+}
+
+.search-container {
+	position: relative;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+#typed {
+	position: absolute;
+	display: inline;
+	bottom: 30px;
+	left: 100px;
+	
+	
+	color: black;
+	font-family: Helvetica;
+	font-size: 40px;
+}
+
+#linkedin {
+	position: absolute;
+	right: 0px;
+	padding-right: 275px;
+}
+
+#github {
+	position: absolute;
+	left: 0px;
+	padding-left: 275px;
+	
+}
+
+#large-shadow {
+	position: relative;
+	margin-top: 190px;
+	margin-left: 380px;
+	width: 60%;
+}
+
+@font-face {
+	font-family: "Century Gothic";
+	src: url("fonts/Century Gothic.ttf");
+}
