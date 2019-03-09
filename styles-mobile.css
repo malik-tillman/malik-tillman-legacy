@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@media (max-width: 1800px){
+	.link-mobile {
+		transform: translateY(150px);
+		
+	}
+	
+}
+
+@media (max-width: 800px){
+	.link-mobile {
+		transform: translateY(150px);
+	}
+	
+	#github{
+		left: 0;
+		margin-left: 40%;
+	}
+	
+	#linkedin{
+		transform: translateY(400px);
+		left: 0;
+		margin-left: 40%;
+	}
+	
+	#large-shadow{
+		opacity: 0;
+	}
+	
+	#name {
+		font-size: 110px;
+	}
+	
+	.search-container {
+		transform: scale(.7);
+		display: flex;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	
+}
+
+@media (max-width: 600px){
+	.link-mobile {
+		transform: translateY(150px);
+	}
+	
+	#github{
+		left: 0;
+		margin-left: 30%;
+	}
+	
+	#linkedin{
+		transform: translateY(400px);
+		left: 0;
+		margin-left: 30%;
+	}
+	
+	.search-container {
+		position: relative;
+		display: flex;
+		margin-right: 50%;
+	}
+	
+}
+
+@media (max-width: 550px){
+	.search-container {
+		position: relative;
+		display: flex;
+		margin-right: 50%;
+	}
+}
