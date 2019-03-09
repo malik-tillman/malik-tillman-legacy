@@ -86,7 +86,7 @@ html {
 	width: 175px;
 }
 
-.fade-in:hover {
+.hover-element:hover {
 	transform: scale(.8);
 }
 
@@ -103,9 +103,9 @@ html {
 }
 
 .fade-in {
-	opacity: 0;
+	transform: translateY(0px);
 	animation: fadeIn ease-in-out 1;
-	animation-fill-mode: forwards;
+	animation-fill-mode: none;
 	animation-duration: 1s;
 }
 
