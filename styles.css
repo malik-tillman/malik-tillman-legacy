@@ -69,6 +69,9 @@ html {
 	right: 0px;
 	margin-right: 400px;
 	margin-top: -35px;
+	
+	transition: all 1s ease-in-out;
+	
 	width: 175px;
 }
 
@@ -78,7 +81,32 @@ html {
 	margin-left: 400px;
 	margin-top: -35px;
 	
+	transition: all 1s ease-in-out;
+	
 	width: 175px;
+}
+
+.fade-in:hover {
+	transform: scale(.8);
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+	
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn ease-in-out 1;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
 }
 
 #large-shadow {
