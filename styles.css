@@ -60,6 +60,23 @@ html {
 	font-size: 40px;
 }
 
+#resume{
+	position: relative;
+	left: 50%;
+	top: 25px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: "Century Gothic";	
+}
+
+#resume:hover{
+	color: cyan;
+	text-decoration: underline;
+	text-decoration-color: cyan;
+	text-decoration-style: dotted;
+}
+
 #search-bar {
 	width: 550px;
 }
