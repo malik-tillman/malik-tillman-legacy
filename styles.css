@@ -44,6 +44,7 @@ html {
 	display: table;
 	margin-left: auto;
 	margin-right: auto;
+	right: 35px;
 }
 
 #typed {
@@ -53,6 +54,7 @@ html {
 	right: 0;
 	left: 0;
 	text-align: center;
+	left: 80px;
 	
 	
 	color: black;
@@ -78,7 +80,7 @@ html {
 }
 
 #search-bar {
-	width: 550px;
+	width: 600px;
 }
 
 #linkedin {
